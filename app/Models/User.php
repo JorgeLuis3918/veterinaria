@@ -13,7 +13,6 @@ class User extends Authenticatable
     use SoftDeletes;
     public $table = 'users';
     protected $dates = ['delete_at'];
-    
     public $fillable = [
     'nombre_usuario',
     'rol_id',
